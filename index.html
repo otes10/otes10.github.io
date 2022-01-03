@@ -1,261 +1,329 @@
-<!DOCTYPE HTML>
-<!--
-	Verti by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Verti by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload homepage">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<header id="header" class="container">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Engineer Portfolio</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Atkinson%20Hyperlegible.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 
-						<!-- Logo -->
-							<div id="logo">
-								<h1><a href="index.html">Verti</a></h1>
-								<span>by HTML5 UP</span>
-							</div>
+<body style="color: #3d2c2e;font-family: 'Atkinson Hyperlegible';">
+    <div class="modal fade" role="dialog" tabindex="-1" id="autonomous-recycling-robot">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #f2f2f2;">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="modal-title" style="font-family: 'Atkinson Hyperlegible';border-color: #14080e;color: #14080e;">Autonomous Recycling Robot</h4>
+                            <h5 style="font-family: 'Atkinson Hyperlegible';color: #14080e;"><em>May - Aug 2020</em></h5>
+                        </div>
+                    </div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background: #f2f2f2;">
+                    <p style="font-family: 'Atkinson Hyperlegible';text-align: left;color: #3d2c2e;"><strong>Intro</strong><br>Over the school term of Summer 2020, I teamed up with 3 other Engineering Physics students to design a robot that could retrieve empty soda cans and dump them into a bin. The twist was that we were in a global pandemic, which meant that we needed to build the robots entirely from home with our own tools.<br><img src="assets/img/robotsummer.jpg" style="width: 300px;"><br><br><strong>What</strong><br>The robot is built entirely from scratch. We designed the chassis to mount all our electronics while maintaining structural integrity, despite the use of plastic. I prototyped a mechanically actuated back door that doubles as a ramp to release the cans into a bin. After rounds of rapid prototyping with household items, I ended up with a reliable and elegant solution.<br><img style="margin: 0px;text-align: left;width: 300px;" src="assets/img/backdoormechanism.gif"><br><br>We painstakingly built H-bridges to enable both-way driving and to protect the microcontroller from noise.&nbsp;We also equipped our robot with stereo IR sensors and wrote control code based off of PID for autonomous line tracking.<br><img style="margin: 0px;text-align: left;width: 300px;" src="assets/img/IMG_20200806_150837.jpg"><br></p>
+                </div>
+                <div class="modal-footer" style="background: #f2f2f2;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="piposture">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #f2f2f2;">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="modal-title" style="font-family: 'Atkinson Hyperlegible';border-color: #14080e;color: #14080e;">PiPosture&nbsp; - Posture Tracking App</h4>
+                            <h5 style="font-family: 'Atkinson Hyperlegible';color: #14080e;"><em>Jan 2021</em></h5>
+                        </div>
+                    </div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background: #f2f2f2;">
+                    <p style="font-family: 'Atkinson Hyperlegible';text-align: left;color: #3d2c2e;"><a href="https://devpost.com/software/piposture">Devpost Link</a><br><a href="https://github.com/otes10/posture_bot">Github Link</a><br><br><strong>Intro</strong><br>This was a project made for <strong>NWHacks 2021</strong>&nbsp;at UBC! It consists of a Discord bot as a front end for the user to interact with, a Flask API and a Tensorflow Lite CNN model backend hosted by a Raspberry Pi, and photo storage hosted in an instance of an AWS S3 storage.<br><img src="assets/img/piposture.png" style="width: 300px;"><br><br><strong>What</strong><br>I worked on the neural net and image processing for this project. Using the OpenCV library, I processed images of a person sitting to remove all the details except for the person's silhouette. These processed images would be labelled manually (good posture/bad posture) and then collected into a dataset.<br><br><em>Image processing to remove details for better CNN training data.</em><br><img src="assets/img/testborders.jpg"><br><br>With Keras, I trained a CNN (convolutional neural network) model on half of my dataset. To verify the model, l tested the accuracy of my model's predictions using the other half of the dataset it hasn't seen before.<br><br>Finally, the model was compressed to be compatible with Tensorflow Lite, which is designed to be run on less powerful computers such as the Raspberry Pi. With the model now running in the Pi, the Pi could take pictures of your posture periodically and predict whether you have bad or good posture!<br><br><strong>Why</strong><br>With the continued presence of COVID-19 in 2021, many students and professionals are now forced to study/work/be productive at home. One problem that this working environment has created is the increased time spent sitting in front of a desk. We created this Discord bot to remind the growing population of people working from home to protect our backs against the damaging effects of sitting with bad posture and to maintain a healthy work-from-home environment.<br><br></p>
+                </div>
+                <div class="modal-footer" style="background: #f2f2f2;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="carnavigation">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #f2f2f2;">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="modal-title" style="font-family: 'Atkinson Hyperlegible';border-color: #14080e;color: #14080e;">Simulated Robot Competition</h4>
+                            <h5 style="font-family: 'Atkinson Hyperlegible';color: #14080e;"><em>Oct - Dec 2020</em></h5>
+                        </div>
+                    </div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background: #f2f2f2;">
+                    <p style="font-family: 'Atkinson Hyperlegible';text-align: left;color: #3d2c2e;"><strong>Intro</strong><br>In this project, my teammate and I explored the challenges of developing an autonomous driving agent in a timed competition. The agent was evaluated on its ability to obey traffic laws and recognize license plates of parked cars in a simulated Gazebo environment. Limited to a single front-facing camera, we applied both classical and machine learning techniques to use an image feed to navigate, avoid collisions and recognize license plates while keeping within the boundaries of the road.<br><br>After 3 months of hard work, my teammate and I scored <strong>3rd place</strong> out of 20 in our class competition, with a perfect score on the license plate recognition!<br><br><strong>What</strong><br>I focused on the traffic detection and license plate reading for this project. <br><br><em>License Plate Recognition</em><br>The license plate recognition started off with image processing of the front camera output of our car. Using the OpenCV library, I detected the location and orientation of the license plates and used a perspective transform to extract the license plate.<br><br><em>View from the car's camera and the extracted license plate.</em><br><img src="assets/img/licenseplate1.png" style="width: 200px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="assets/img/licenseplate2.png" style="width: 56px;"><br><br>The license plate is then fed into CNN models (convolutional neural network) trained on thousands of license plates to predict the characters on the license plate.<br><br>After lots of tweaking, I achieved a 99.7% accuracy on our tests, and a 100% accuracy during the competition round.<br><br><em>Traffic Detection</em><br>The traffic detection algorithm was implemented with classical computer vision techniques. The algorithm takes 2 frames from the car's camera and takes the difference in light intensity between them. Then, some transforms were applied to clean up noise and isolate movement of objects, and it worked surprisingly well! The traffic detection will trigger if the object movement detected was above a threshold.<br><br><em>The image processing steps used in the traffic detection algorithm.</em><br><img src="assets/img/vehicledetection1.png" style="width: 150px;"><img src="assets/img/vehicledetection2.png" style="width: 150px;"><img src="assets/img/vehicledetection3.png" style="width: 150px;"><br><br><br></p>
+                </div>
+                <div class="modal-footer" style="background: #f2f2f2;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="standingdesk">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #f2f2f2;">
+                    <h4 class="modal-title" style="font-family: 'Atkinson Hyperlegible';color: #14080e;">Standing Desk for Gamers</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background: #f2f2f2;">
+                    <p style="font-family: 'Atkinson Hyperlegible';text-align: left;color: #3d2c2e;">WIP!</p>
+                </div>
+                <div class="modal-footer" style="background: #f2f2f2;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="graphtraversal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #f2f2f2;">
+                    <h4 class="modal-title" style="font-family: 'Atkinson Hyperlegible';border-color: #14080e;">Graph Traversal Optimization</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background: #f2f2f2;">
+                    <p style="font-family: 'Atkinson Hyperlegible';border-color: #3d2c2e;text-align: left;">WIP!</p>
+                </div>
+                <div class="modal-footer" style="background: #f2f2f2;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="gasbrakepedals">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #f2f2f2;">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="modal-title" style="font-family: 'Atkinson Hyperlegible';border-color: #14080e;color: #14080e;">Gas and Brake Pedals for UBC Solar</h4>
+                            <h5 style="font-family: 'Atkinson Hyperlegible';color: #14080e;"><em>May - Aug 2020</em></h5>
+                        </div>
+                    </div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background: #f2f2f2;">
+                    <p style="font-family: 'Atkinson Hyperlegible';border-color: #3d2c2e;text-align: left;color: #3d2c2e;"><strong>Intro</strong><br>UBC Solar is a design team with a goal to build a 100% solar-powered car to race in the Formula Sun Grand Prix and the American Solar Challenge. As a member of the Suspension and Steering Team, I designed the gas and brake pedals for the 3rd generation car for the team.<br><br><strong>What</strong><br>The project included the design and FEA modelling for the gas pedal, brake pedal and the mounting system to the chassis. Additionally, I selected the hydraulic fittings for the brake lines that connect to the calipers on the wheels.<br><br><strong>Why</strong><br>The 2nd generation car used a simpler floor-mounted pedal design. We couldn't use this same design in the 3rd gen car because our new wire-frame chassis was much smaller in the front and had a different geometry. After preliminary design, I determined that mounting the pedals on a panel was the best solution. <br><br>This panel proved to be a challenge to design, as it needed to withstand bending and torsional forces caused by full force slamming on the brake pedals during an emergency. A lot of work went into FEA on the panel and redesigning it until a safety factor on the max stress levels were reached.<br><br><em>Brake Pedal Assembly</em><br><img src="assets/img/brakepedalexploded.png" style="width: 300px;"><br><br><em>Gas Pedal Assembly</em><br><img src="assets/img/gaspedalexploded.png" style="width: 300px;"><br><br><em>FEA of the Panel</em><br><img src="assets/img/FEApanel.png" style="width: 300px;"></p>
+                </div>
+                <div class="modal-footer" style="background: #f2f2f2;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="keyboards">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #f2f2f2;">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="modal-title" style="font-family: 'Atkinson Hyperlegible';border-color: #14080e;color: #14080e;">My Keyboard Projects</h4>
+                        </div>
+                    </div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background: #f2f2f2;">
+                    <p style="font-family: 'Atkinson Hyperlegible';text-align: left;color: #3d2c2e;"><strong>Jmacro Rev 1</strong><br>During the pandemic I was using a drawing tablet and OneNote to take notes for online classes. However, it was challenging to switch between different pens on the desktop UI, and the keyboard shortcuts were marginally better as I was getting finger cramps from repeatedly typing Alt-1 and Alt-2. What I needed was a dedicated macro pad, and since I had access to the Vancouver Hack Space for my co-op job, I decided to design and make my own!<br><img src="assets/img/jmacrov1.jpg" style="width: 300px;"><br><br><strong>Specs:</strong><br>Plate and case: Laser-cut acrylic<br>Electronics: Hand-wired, Arduino Pro Micro<br>Switches: Gat Ink Black V2's<br><img src="assets/img/jmacrov1back.jpg" style="width: 300px;"><br><br><strong>Dactyl Manuform 5x6&nbsp;</strong><a href="https://imgur.com/gallery/JJKOMIq">Imgur Post</a><br>After the success of my macro pad, I decided to do something bigger. I was experiencing some wrist pain, and was irritated by having to reach my right hand all the way to the left to type on my standard full-size keyboard. I then discovered the Dactyl Manuform and knew I needed to make it! I borrowed a 3D printer from the Hack Space to print the case, then diligently sanded and spray-painted the outside to get a smooth finish. The hand-wiring was also a fun but long journey.<br><img src="assets/img/IMG_20210810_232049.jpg" style="width: 300px;"><br><br>Specs:<br>Plate and case: 3D printed PLA, primed and spray-painted, laser-cut acrylic bottom plate<br>Electronics: hand-wired, 2x Pro Micro, RJ9 cable, USB-C port<br>Switches: Boba U4<br>Keycaps: SA(R3) Ice Cap<br><img src="assets/img/dactylback.jpg" style="width: 300px;"><br><br><strong>Jmacro Rev 2</strong><br>I wanted to dabble into PCB design, and also wanted to add some more features to my macro pad, and so I designed the Jmacro Rev2! The PCB comes equipped with 2 rotary encoder slots and even support for RGB backlighting.<br><br><img src="assets/img/jmacrov2pic1.jpg" style="width: 300px;"><br><br>Specs:<br>Plate and case: FR-4 PCB material, acrylic bottom<br>Electronics: Custom PCB, Pro Micro, 2x Rotary Encoders<br>Switches: Gateron Milk Yellow<br><img src="assets/img/jmacrov2pic3.jpg" style="width: 300px;"><br><br></p>
+                </div>
+                <div class="modal-footer" style="background: #f2f2f2;"></div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark navbar-expand-md textwhite text-white navigation-clean fixed-top" style="background: #268187;opacity: 1;padding: 12px 0px;">
+        <div class="container"><a class="navbar-brand" href="#" style="font-family: 'Atkinson Hyperlegible';color: #f2f2f2;">James Seto</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="font-family: 'Atkinson Hyperlegible';">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item text-start"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item text-start"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://otes10.github.io/folder/resume.pdf">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="justify-content-start align-items-end highlight-clean" id="homescreen" style="background: linear-gradient(black, rgb(242,242,242) 0%, rgba(255,255,255,0.7) 100%), url(&quot;assets/img/coalharbour.jpg&quot;) top / cover, rgb(242,242,242);min-height: 500px;height: 100vh;background-size: auto, cover, auto;padding-top: 100px;">
+        <div class="container text-center">
+            <picture class="text-center shadow-none"><img class="rounded-circle border" style="margin: 16px;width: 150px;height: 150px;" src="assets/img/website_photo.jpg" width="100" height="100"></picture>
+        </div>
+        <div class="container" style="padding: 0px 24px;">
+            <div class="intro">
+                <h1 class="text-center" style="font-family: 'Atkinson Hyperlegible';color: #14080e;">Welcome!</h1>
+                <p class="text-start" style="font-family: 'Atkinson Hyperlegible';color: #3d2c2e;">Hello! I am James Seto, a 4th year Engineering Physics student at the University of British Columbia. I plan to specialize in electrical engineering, with some of my interests lying in renewable energy, robotics, ergonomics and IoT.<br></p>
+            </div>
+            <div class="social-icons" style="background: rgba(255,255,255,0);padding: 0px;"><a href="https://www.linkedin.com/in/james-seto-278767165/"><i class="icon ion-social-linkedin" style="color: #3d2c2e;opacity: 0.70;border-width: 0px;"></i></a><a href="https://otes10.github.io/folder/resume.pdf"><i class="icon ion-document-text" style="color: #3d2c2e;opacity: 0.70;border-width: 0px;"></i></a><a href="https://github.com/otes10"><i class="icon ion-social-github" style="color: #3d2c2e;opacity: 0.70;border-width: 0px;"></i></a></div>
+        </div>
+    </section>
+    <section id="experience" style="border-color: rgb(33, 37, 41);border-top-color: rgb(33,;border-right-color: 37,;border-bottom-color: 41);border-left-color: 37,;background: #3d2c2e;">
+        <div class="container-fluid" style="padding: 20px 0px;">
+            <div class="intro" style="font-family: 'Atkinson Hyperlegible';">
+                <h2 class="text-center" style="font-family: 'Atkinson Hyperlegible';color: #f2f2f2;"><strong>Experience</strong></h2>
+            </div>
+        </div>
+    </section>
+    <section class="projects-horizontal" style="background: #f2f2f2;">
+        <div class="container">
+            <div class="row" style="padding: 20px 60px;">
+                <div class="col-md-12 col-xl-12 col-xxl-12 offset-xl-0">
+                    <h3 style="color: #14080e;font-family: 'Atkinson Hyperlegible';font-weight: bold;">Experimental Robotics Intern</h3>
+                    <h5 style="color: #14080e;font-family: 'Atkinson Hyperlegible';"><a href="https://www.aandkrobotics.com/" style="color: #268187;"><strong>A&amp;K Robotics</strong></a><strong>&nbsp;</strong>| Sep 2021 - Dec 2021, Vancouver, BC, Canada</h5>
+                    <div style="padding-bottom: 5px;"><span class="badge rounded-pill bg-primary" style="background: var(--bs-blue);margin: 2px;">Kicad</span><span class="badge rounded-pill bg-primary" style="background: var(--bs-blue);margin: 2px;font-family: 'Atkinson Hyperlegible';">LTSpice</span><span class="badge rounded-pill bg-primary" style="background: var(--bs-blue);margin: 2px;font-family: 'Atkinson Hyperlegible';">Fusion 360</span><span class="badge rounded-pill bg-primary" style="background: var(--bs-blue);margin: 2px;font-family: 'Atkinson Hyperlegible';">3D Printing</span><span class="badge rounded-pill bg-primary" style="background: var(--bs-blue);margin: 2px;font-family: 'Atkinson Hyperlegible';">Arduino C++</span><span class="badge rounded-pill bg-primary" style="background: var(--bs-blue);margin: 2px;font-family: 'Atkinson Hyperlegible';">CANBus</span><span class="badge rounded-pill bg-primary" style="background: var(--bs-blue);margin: 2px;font-family: 'Atkinson Hyperlegible';">Jira</span></div>
+                    <p style="font-family: 'Atkinson Hyperlegible';margin: 0px;color: #3d2c2e;">Responsibilities<br></p>
+                    <ul style="color: #3d2c2e;">
+                        <li><strong>Mechanical:&nbsp;</strong>Designed a robust shipping hook assembly to easily install onto our autonomous vehicle. Calculated the power required for our vehicle to reach 2m/s max velocity to select a new motor. Converted a wheelchair into a mapping vehicle using custom sensor mounts to obtain 3D maps of outdoor locations.<br></li>
+                        <li><strong>Electrical: </strong>Implemented a magnetically triggered indicator onto our vehicle docking station to indicate the docking status to passengers and operators. Designed and tested a 36V 6A load switch with voltage and current protections to reliably control power to robot components.</li>
+                    </ul>
+                    <hr>
+                </div>
+                <div class="col-md-12 col-xl-12 col-xxl-12 offset-xl-0">
+                    <h3 style="color: #14080e;font-family: 'Atkinson Hyperlegible';font-weight: bold;">Hardware and Firmware Co-op</h3>
+                    <h5 style="color: #14080e;font-family: 'Atkinson Hyperlegible';"><a href="https://www.brave.coop/" style="color: #268187;"><strong>Brave Technology Coop</strong></a><strong>&nbsp;</strong>| May 2021 - Aug 2021, Vancouver, BC, Canada</h5>
+                    <div style="padding-bottom: 5px;"><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Fusion Eagle</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">C++</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">UART</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Particle IoT</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Jenkins</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Small Scale Manufacturing</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">JavaScript</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Redis + Postgres</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">ClickUp</span></div>
+                    <p style="color: #3d2c2e;font-family: 'Atkinson Hyperlegible';margin: 0px;">Responsibilities<br></p>
+                    <ul style="color: #3d2c2e;">
+                        <li><strong>Firmware &amp; Software:</strong>&nbsp;Modified our overhauled firmware to communicate with legacy sensors to extend its EOL. Developed telemetry firmware using the Particle API to communicate the status of our IoT devices. Implemented the server endpoint to parse and store the telemetry communication into a Postgres + Redis database to monitor our fleet's health.</li>
+                        <li><strong>Hardware:&nbsp;</strong>Selected, tested and integrated a watchdog chip into our device PCBs to automate firmware crash recovery, reducing downtime.&nbsp;Streamlined a procedure to manufacture our device PCBs reliably and quickly.<br></li>
+                        <li><strong>Product Deployment: </strong>Packaged devices with instructions to be failproof and enjoyable for client installations. Communicated with clients on site and remotely to solve outages and ensure client satisfaction.</li>
+                    </ul>
+                    <hr>
+                </div>
+                <div class="col-md-12 col-xl-12 col-xxl-12 offset-xl-0">
+                    <h3 style="color: #14080e;font-family: 'Atkinson Hyperlegible';font-weight: bold;">Suspension and Steering Subteam Member</h3>
+                    <h5 style="color: #14080e;font-family: 'Atkinson Hyperlegible';"><a href="https://ubcsolar.com/" style="color: #268187;"><strong>UBC Solar</strong></a><strong>&nbsp;</strong>| Sep 2019 - Apr 2021, Vancouver, BC, Canada</h5>
+                    <div style="padding-bottom: 5px;"><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Solidworks</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">ANSYS FEA</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Trello</span></div>
+                    <p style="color: #3d2c2e;font-family: 'Atkinson Hyperlegible';margin: 0px;">Responsibilities<br></p>
+                    <ul style="color: #3d2c2e;">
+                        <li><strong>Mechanical Design: </strong>Redesigned the steering wheel of the 2nd generation car for improved ergonomics and an enclosure for vehicle controls. Designed a unique brake and gas pedal assembly for the 3rd generation car to have a small form factor and to withstand full force slamming on the brakes.<br></li>
+                        <li><strong>Communication: </strong>Reached out to bike shops to request dynamic testing of our shock absorbers. Collaboratively devised a test procedure to maximize the data quality of the experiment.&nbsp;Maintained professionality in communications as a representative of the UBC Solar team.<br></li>
+                    </ul>
+                    <hr>
+                </div>
+                <div class="col-md-12 col-xl-12 col-xxl-12 offset-xl-0">
+                    <h3 style="color: #14080e;font-family: 'Atkinson Hyperlegible';font-weight: bold;">Database Administrator Assistant</h3>
+                    <h5 style="color: #14080e;font-family: 'Atkinson Hyperlegible';"><a href="https://www.bcldb.com/" style="color: #268187;"><strong>BC Liquor Distribution Branch</strong></a><strong>&nbsp;</strong>| Jan 2020 - Apr 2020, Burnaby, BC, Canada</h5>
+                    <div style="padding-bottom: 5px;"><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Excel</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Shell Scripting</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Ansible</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Logstash</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Jira</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Team Management</span></div>
+                    <p style="color: #3d2c2e;font-family: 'Atkinson Hyperlegible';margin: 0px;">Responsibilities<br></p>
+                    <ul style="color: #3d2c2e;">
+                        <li><strong>Team Management:</strong> Drafted a service level agreement to reinforce the new consulting role of my team. Managed communications and planning for the transition of database monitoring to the Support Centre team. Migrated task management onto the JIRA agile platform to spotlight task progress to IT department.<br></li>
+                        <li><strong>Automation:</strong> Automated tasks such as password changing with Ansible for 100’s of servers. Applied regex to convert server logs to JSON form for easier detail parsing.<br></li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" style="border-color: rgb(33, 37, 41);border-top-color: rgb(33,;border-right-color: 37,;border-bottom-color: 41);border-left-color: 37,;background: #3d2c2e;">
+        <div class="container-fluid" style="padding: 20px;">
+            <div class="intro" style="font-family: 'Atkinson Hyperlegible';">
+                <h2 class="text-center" style="font-family: 'Atkinson Hyperlegible';color: #f2f2f2;margin: 0px 0px 10px;"><strong>Projects </strong></h2>
+                <p class="text-center" style="color: #cccccc;margin: 0px;">Click the icons to see more about each project.</p>
+            </div>
+        </div>
+    </section>
+    <section class="projects-clean">
+        <div class="container-fluid" style="background: #f2f2f2;">
+            <div class="row projects">
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/ENPH353.gif">
+                    <h3 class="name" style="font-family: 'Atkinson Hyperlegible';color: #14080e;">Simulated Robot Competition</h3>
+                    <p class="description" style="font-family: 'Atkinson Hyperlegible';color: #3d2c2e;">A ROS agent that steers a car to obey traffic laws and reads characters on the license plates of parked cars.</p>
+                    <div style="padding: 5px;"><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Software</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Python</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Machine Learning</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Computer Vision</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">ROS</span></div>
+                    <div class="social-icons" style="padding: 5px;background: rgba(255,255,255,0);"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carnavigation" type="button" style="padding: 0;width: 5;height: 5;background: rgba(13,110,253,0);border-width: 0px;transform: translateY(-8px);transform-origin: 0px 0px;border-radius: 0px;margin: 0px;"><i class="fa fa-ellipsis-h"></i></button><a href="https://otes10.github.io/folder/enph353report.pdf"><i class="icon ion-ios-paper"></i></a></div>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/piposture.png">
+                    <h3 class="name" style="font-family: 'Atkinson Hyperlegible';color: #14080e;">PiPosture - <br>Posture Tracking App</h3>
+                    <p class="description" style="font-family: 'Atkinson Hyperlegible';color: #3d2c2e;">A Discord bot that works with a Raspberry Pi to take snapshots and analyze sitting posture through a self-trained CNN model.<br></p>
+                    <div style="padding: 5px;"><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Software</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Python</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Tensorflow</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Computer Vision</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Raspberry Pi</span></div>
+                    <div class="social-icons" style="background: rgba(255,255,255,0);padding: 5px;"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#piposture" type="button" style="padding: 0;width: 5;height: 5;background: rgba(13,110,253,0);border-width: 0px;transform: translateY(-8px);transform-origin: 0px 0px;border-radius: 0px;margin: 0px;"><i class="fa fa-ellipsis-h"></i></button><a href="https://github.com/otes10/posture_bot"><i class="icon ion-social-github"></i></a></div>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/robotsummer.jpg">
+                    <h3 class="name" style="font-family: 'Atkinson Hyperlegible';color: #14080e;">Autonomous Recycling Robot</h3>
+                    <p class="description" style="font-family: 'Atkinson Hyperlegible';color: #3d2c2e;">An autonomous line-following robot that can retrieve and dump soda cans.</p>
+                    <div style="margin: 0px;padding: 5px;"><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Mechanical</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Electrical</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">C++</span></div>
+                    <div class="social-icons" style="padding: 5px;background: rgba(255,255,255,0);"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#autonomous-recycling-robot" type="button" style="padding: 0;width: 5;height: 5;background: rgba(13,110,253,0);border-width: 0px;border-radius: 0px;margin: 0px;"><i class="fa fa-ellipsis-h"></i></button></div>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/pedalassem1.png">
+                    <h3 class="name" style="font-family: 'Atkinson Hyperlegible';color: #14080e;">Gas and Brake Pedals for UBC Solar</h3>
+                    <p class="description" style="font-family: 'Atkinson Hyperlegible';color: #3d2c2e;">Pedals, mounting and brake line routing for UBC Solar's 3rd generation solar-powered competition car.</p>
+                    <div style="padding: 5px;"><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Mechanical</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">ANSYS FEA</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Solidworks</span></div>
+                    <div class="social-icons" style="padding: 5px;background: rgba(255,255,255,0);"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gasbrakepedals" type="button" style="padding: 0;width: 5;height: 5;background: rgba(13,110,253,0);border-width: 0px;border-radius: 0px;margin: 0px;"><i class="fa fa-ellipsis-h"></i></button></div>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/standingdesk.png">
+                    <h3 class="name" style="font-family: 'Atkinson Hyperlegible';color: #14080e;">Standing Desk for Gamers</h3>
+                    <p class="description" style="font-family: 'Atkinson Hyperlegible';color: #3d2c2e;">Mechanical design of a motor-powered variable-height desk and monitor stand.</p>
+                    <div style="padding: 5px;"><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Mechanical</span></div>
+                    <div class="social-icons" style="padding: 5px;background: rgba(255,255,255,0);"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#standingdesk" type="button" style="padding: 0;width: 5;height: 5;background: rgba(13,110,253,0);border-width: 0px;border-radius: 0px;margin: 0px;"><i class="fa fa-ellipsis-h"></i></button></div>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/horsehead.jpg">
+                    <h3 class="name" style="font-family: 'Atkinson Hyperlegible';color: #14080e;">Graph Traversal Optimization</h3>
+                    <p class="description" style="font-family: 'Atkinson Hyperlegible';color: #3d2c2e;">A Dune spaceship algorithm designed to optimize planetary spice collection and return to Earth with fuel remaining.<br></p>
+                    <div style="padding: 5px;"><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Software</span><span class="badge rounded-pill bg-primary" style="font-family: 'Atkinson Hyperlegible';background: var(--bs-blue);margin: 2px;">Java</span></div>
+                    <div class="social-icons" style="padding: 5px;background: rgba(255,255,255,0);"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#graphtraversal" type="button" style="padding: 0;width: 5;height: 5;background: rgba(13,110,253,0);border-width: 0px;transform-origin: 0px 0px;border-radius: 0px;margin: 0px;"><i class="fa fa-ellipsis-h"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hobbies" style="border-color: rgb(33, 37, 41);border-top-color: rgb(33,;border-right-color: 37,;border-bottom-color: 41);border-left-color: 37,;background: #3d2c2e;">
+        <div class="container-fluid" style="padding: 20px;">
+            <div class="intro" style="font-family: 'Atkinson Hyperlegible';">
+                <h2 class="text-center" style="font-family: 'Atkinson Hyperlegible';color: #f2f2f2;"><strong>Hobbies</strong></h2>
+                <p class="text-center" style="color: #cccccc;margin: 0px;">A little more about who I am!</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row projects" style="background: #cccccc;padding: 0px 0px 40px;">
+                <div class="col text-center item" style="padding: 50px 50px 0px;"><img class="img-fluid" src="assets/img/bouldering.jpg" style="max-height: 300px;">
+                    <h3 class="name" style="font-family: 'Atkinson Hyperlegible';color: #14080e;margin: 20px 0px 8px;"><strong>Bouldering</strong></h3>
+                    <p class="description" style="font-family: 'Atkinson Hyperlegible';color: #3d2c2e;margin: 15px 0px 0px;">I got into bouldering in the fall of 2021 as a fun and mind-engaging form of exercise! It's also an easy excuse to hang out with friends.</p>
+                </div>
+                <div class="col text-center item" style="padding: 50px 50px 0px;"><img class="img-fluid" src="assets/img/dactyl.jpg" style="max-height: 300px;">
+                    <h3 class="text-center name" style="font-family: 'Atkinson Hyperlegible';color: #14080e;margin: 20px 0px 8px;"><strong>DIY Keyboards</strong></h3>
+                    <p class="text-center description" style="font-family: 'Atkinson Hyperlegible';color: #3d2c2e;margin: 15px 0px 0px;">After being dissatisfied with the ergonomics of my old keyboard, I decided to make my own. And thus I entered down a rabbit-hole...</p>
+                    <div class="social-icons" style="background: rgba(255,255,255,0);padding: 5px;"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#keyboards" type="button" style="padding: 0;width: 5;height: 5;background: rgba(13,110,253,0);border-width: 0px;border-radius: 0px;margin: 0px;"><i class="fa fa-camera" style="border-color: rgb(117, 121, 128);border-top-color: rgb(117,;border-right-color: 121,;border-bottom-color: 128);border-left-color: 121,;"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-dark" style="background: #268187;">
+        <div class="container" id="contact">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 col-lg-4 item">
+                    <h3 style="color: #f2f2f2;">Navigation</h3>
+                    <ul style="color: #cccccc;opacity: 1;">
+                        <li><a href="#experience" style="opacity: 1;">Experience</a></li>
+                        <li><a href="#projects" style="opacity: 1;">Projects</a></li>
+                        <li><a href="#hobbies" style="opacity: 1;">Hobbies</a></li>
+                        <li><a href="#contact" style="opacity: 1;">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-4 item">
+                    <h3 style="color: #f2f2f2;">Contact Me</h3>
+                    <ul style="color: #cccccc;">
+                        <li><strong>Email:</strong> jameseto1@gmail.com</li>
+                        <li><strong>Phone:</strong> (778) 839-6901</li>
+                    </ul>
+                </div>
+                <div class="col text-end item social"><a href="https://github.com/otes10"><i class="icon ion-social-github"></i></a><a href="https://www.linkedin.com/in/james-seto-278767165/"><i class="icon ion-social-linkedin"></i></a>
+                    <p class="text-end copyright" style="color: #cccccc;opacity: 0.51;">James Seto | 2022&nbsp;&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Welcome</a></li>
-									<li>
-										<a href="#">Dropdown</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-								</ul>
-							</nav>
-
-					</header>
-				</div>
-
-			<!-- Banner -->
-				<div id="banner-wrapper">
-					<div id="banner" class="box container">
-						<div class="row">
-							<div class="col-7 col-12-medium">
-								<h2>Hi. This is Verti.</h2>
-								<p>It's a free responsive site template by HTML5 UP</p>
-							</div>
-							<div class="col-5 col-12-medium">
-								<ul>
-									<li><a href="#" class="button large icon solid fa-arrow-circle-right">Ok let's go</a></li>
-									<li><a href="#" class="button alt large icon solid fa-question-circle">More info</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Features -->
-				<div id="features-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-medium">
-
-								<!-- Box -->
-									<section class="box feature">
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>Put something here</h2>
-												<p>Maybe here as well I think</p>
-											</header>
-											<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-										</div>
-									</section>
-
-							</div>
-							<div class="col-4 col-12-medium">
-
-								<!-- Box -->
-									<section class="box feature">
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>An interesting title</h2>
-												<p>This is also an interesting subtitle</p>
-											</header>
-											<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-										</div>
-									</section>
-
-							</div>
-							<div class="col-4 col-12-medium">
-
-								<!-- Box -->
-									<section class="box feature">
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>Oh, and finally ...</h2>
-												<p>Here's another intriguing subtitle</p>
-											</header>
-											<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-										</div>
-									</section>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Main -->
-				<div id="main-wrapper">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-4 col-12-medium">
-
-								<!-- Sidebar -->
-									<div id="sidebar">
-										<section class="widget thumbnails">
-											<h3>Interesting stuff</h3>
-											<div class="grid">
-												<div class="row gtr-50">
-													<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-													<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-													<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
-													<div class="col-6"><a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a></div>
-												</div>
-											</div>
-											<a href="#" class="button icon fa-file-alt">More</a>
-										</section>
-									</div>
-
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
-
-								<!-- Content -->
-									<div id="content">
-										<section class="last">
-											<h2>So what's this all about?</h2>
-											<p>This is <strong>Verti</strong>, a free and fully responsive HTML5 site template by <a href="http://html5up.net">HTML5 UP</a>.
-											Verti is released under the <a href="http://html5up.net/license">Creative Commons Attribution license</a>, so feel free to use it for any personal or commercial project you might have going on (just don't forget to credit us for the design!)</p>
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit amet phasellus quam turpis.</p>
-											<a href="#" class="button icon solid fa-arrow-circle-right">Continue Reading</a>
-										</section>
-									</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<footer id="footer" class="container">
-						<div class="row">
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Contact -->
-									<section class="widget contact last">
-										<h3>Contact Us</h3>
-										<ul>
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-										</ul>
-										<p>1234 Fictional Road<br />
-										Nashville, TN 00000<br />
-										(800) 555-0000</p>
-									</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12">
-								<div id="copyright">
-									<ul class="menu">
-										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</footer>
-				</div>
-
-			</div>
-
-		<!-- Scripts -->
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
